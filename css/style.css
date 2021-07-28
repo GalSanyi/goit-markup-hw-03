@@ -27,6 +27,9 @@ li {
   border-bottom: 1px solid #ececec;
   margin-bottom: 100px;
 }
+.header {
+  margin: 0;
+}
 
 .logo {
   color: var(--accent-color);
