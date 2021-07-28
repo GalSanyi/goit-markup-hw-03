@@ -25,6 +25,7 @@ li {
 }
 .page-header {
   border-bottom: 1px solid #ececec;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -188,7 +189,12 @@ h2.text {
 }
 
 /* PORTFOLIO DECORATION */
-
+.desc-list {
+  display: flex;
+  justify-content: center;
+    margin: 0;
+    margin-bottom: 50px;
+}
 .desc-list button {
   background: #f5f4fa;
   border: none;
@@ -199,7 +205,14 @@ h2.text {
   line-height: 26px;
   letter-spacing: 0.03em;
   font-family: inherit;
+  padding: 6px 22px;
+  border-radius: 4px;
+ margin-right: 8px;
+
 }
+
+
+
 .desc-list button:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
@@ -218,6 +231,8 @@ h2.text {
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--primery-text-color);
+  margin: 0;
+  
 }
 .section-pic-list p {
   font-weight: normal;
@@ -225,6 +240,8 @@ h2.text {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .logo-tex-footer {
@@ -303,3 +320,19 @@ h2.text {
 .people {
   margin-bottom: 30px;
 }
+
+/* Portfolio flex-box */
+
+.section-pic-list {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  
+}
+.section-pic-list li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: calc((100% - 3 * 30px) / 3);
+}
+
+
