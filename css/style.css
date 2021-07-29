@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --background-team-color: #F5F4FA;
+  --border-text: #EEEEEE; 
 }
 
 body {
@@ -111,7 +112,7 @@ li {
   margin-top: 94px;
 }
 
-}
+
 
 section .section-box{
   padding-top: 94px;
@@ -366,21 +367,25 @@ h2.text {
   margin: 0;
   padding: 0;
   margin-top: -30px;
-  margin-left: 30px;
+  margin-left: -30px;
+  margin-bottom: 94px;
+  
  
   
 }
+
 .section-pic-list > .item {
-  flex-basis: calc(100% / 3 * 30px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
   
+  
 }
-.section-pic-list .item-text {
-  border-right:  1px solid #EEEEEE; 
-  border-bottom: 1px solid #EEEEEE ;
-  border-left: 1px solid #EEEEEE ;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+.item .item-text {
+  border-right:  1px solid var( --border-text); 
+  border-bottom: 1px solid var( --border-text) ;
+  border-left: 1px solid var( --border-text);
+  padding: 20px 24px;
 }
 
