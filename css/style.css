@@ -18,7 +18,7 @@ li {
   margin: 0;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -26,6 +26,7 @@ li {
 .page-header {
   border-bottom: 1px solid #ececec;
   margin-bottom: 100px;
+  
 }
 .header {
   margin: 0;
@@ -70,9 +71,10 @@ li {
 .nav-list a:focus {
   color: var(--accent-color);
 }
-.list-text {
+.list-text .item{
   margin-left: auto;
   display: flex;
+  align-items: center;
 }
 .list-text a {
   color: var(--title-text-color);
