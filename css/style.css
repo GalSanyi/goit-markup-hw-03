@@ -3,8 +3,8 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
-  --background-team-color: #F5F4FA;
-  --border-text: #EEEEEE; 
+  --background-team-color: #f5f4fa;
+  --border-text: #eeeeee;
 }
 
 body {
@@ -25,17 +25,15 @@ li {
   padding-left: 15px;
   padding-right: 15px;
 }
-.header-box{
+.header-box {
   display: flex;
   margin-left: auto;
 }
 .page-header {
   border-bottom: 1px solid #ececec;
-  
-  
 }
 .section-box {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 .header {
   margin: 0;
@@ -83,8 +81,7 @@ li {
 .list-text .item {
   margin-left: auto;
   display: flex;
-  align-items:center;
- 
+  align-items: center;
 }
 .list-text a {
   color: var(--title-text-color);
@@ -108,13 +105,11 @@ li {
 }
 .section-team {
   background: var(--background-team-color);
-  padding-bottom: 0;
-  margin-top: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
-
-
-section .section-box{
+section .section-box {
   padding-top: 94px;
 }
 .title-box {
@@ -187,10 +182,12 @@ h2.text {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 .footer {
   background: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .adress p {
   color: var(--white-color);
@@ -202,9 +199,9 @@ h2.text {
   margin-top: 0;
 }
 .list-adress {
-    padding: 0;
-    margin: 0;
-    padding-bottom: 60px;
+  padding: 0;
+  margin: 0;
+  
 }
 
 .list-adress a {
@@ -219,11 +216,11 @@ h2.text {
 
 /* PORTFOLIO DECORATION */
 .desc-list {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-top: 94px;
-    padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .desc-list button {
   background: #f5f4fa;
@@ -238,10 +235,7 @@ h2.text {
   padding: 6px 22px;
   border-radius: 4px;
   margin-right: 8px;
-
 }
-
-
 
 .desc-list button:hover {
   background-color: var(--accent-color);
@@ -256,12 +250,15 @@ h2.text {
   margin-bottom: 0;
 }
 .subtitle-text .people-list {
+  
   padding-top: 30px;
   padding-bottom: 30px;
-  
 }
 
-
+.subtitle-text .people{
+  display: block;
+  max-width: 100%;
+}
 .section-pic-list h3 {
   font-weight: 700;
   font-size: 18px;
@@ -269,7 +266,6 @@ h2.text {
   letter-spacing: 0.06em;
   color: var(--primery-text-color);
   margin: 0;
-  
 }
 .section-pic-list p {
   font-weight: normal;
@@ -278,7 +274,6 @@ h2.text {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin: 0;
-
 }
 
 .logo-tex-footer {
@@ -300,10 +295,12 @@ h2.text {
 .list-menu {
   display: flex;
   margin-left: 93px;
+  padding: 0;
 }
 .list-text {
   display: flex;
   margin-left: auto;
+  padding: 0;
 }
 
 .list-text .item + .item {
@@ -325,7 +322,6 @@ h2.text {
   display: flex;
   margin: 0;
   padding: 0;
-  margin-bottom: 94px;
 }
 .attention-list .item {
   margin-right: 30px;
@@ -341,9 +337,7 @@ h2.text {
   padding: 0;
   padding-bottom: 0;
   margin-bottom: 0;
-
- 
-
+  margin-top: 0;
 }
 .foto-list .item {
   margin-right: 30px;
@@ -354,6 +348,10 @@ h2.text {
 
 .subtitle-text .item {
   margin-right: 30px;
+  background: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
 }
 .subtitle-text .item:last-child {
   margin-right: 0;
@@ -369,23 +367,17 @@ h2.text {
   margin-top: -30px;
   margin-left: -30px;
   margin-bottom: 94px;
-  
- 
-  
 }
 
 .section-pic-list > .item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
-  
-  
 }
 
 .item .item-text {
-  border-right:  1px solid var( --border-text); 
-  border-bottom: 1px solid var( --border-text) ;
-  border-left: 1px solid var( --border-text);
+  border-right: 1px solid var(--border-text);
+  border-bottom: 1px solid var(--border-text);
+  border-left: 1px solid var(--border-text);
   padding: 20px 24px;
 }
-
