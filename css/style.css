@@ -78,6 +78,13 @@ li {
 .nav-list a:focus {
   color: var(--accent-color);
 }
+.list-text {
+  display: flex;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .list-text .item {
   margin-left: auto;
   display: flex;
@@ -226,6 +233,7 @@ h2.text {
 .desc-list {
   display: flex;
   justify-content: center;
+  padding-left: 0;
   margin: 0;
   margin-bottom: 50px;
  
@@ -288,7 +296,7 @@ h2.text {
 
 .logo-tex-footer {
   display: inline-block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   color: var(--white-color);
   font-family: Raleway;
@@ -303,9 +311,12 @@ h2.text {
 }
 
 .list-menu {
-  display: flex;
-  margin-left: 93px;
-  padding: 0;
+   display: flex;
+   margin-left: 93px;
+   padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 }
 .list-text {
   display: flex;
